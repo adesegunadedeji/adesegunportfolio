@@ -1,0 +1,35 @@
+.Footer-item{
+    list-style-type: none;
+}
+
+.a-footer{
+    color:#BFBFBF;
+    font-weight: bold;
+}
+
+.a-footer:hover{
+    color: #000000;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+}
+.menuFooter{
+    padding-left: 0pt;
+}
+
+
+h7{
+letter-spacing: 0.0333333rem;
+color:#BFBFBF;
+text-decoration: underline;
+font-weight: bold;
+}
+.Bullet{
+    color:#BFBFBF;
+    font-weight: bold;
+}
+.Bullet:hover{
+    color: #000000;
+}
