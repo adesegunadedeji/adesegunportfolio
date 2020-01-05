@@ -4,7 +4,7 @@ import './Image.css'
 function ImageComponent (){
     return(
         <div className="imagePage">
-            <img src={Image} alt = "ProfileImage"/>
+            <img  className="ImageComponent"  src={Image} alt = "ProfileImage"/>
         </div>
     )
 }

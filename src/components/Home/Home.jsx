@@ -3,7 +3,7 @@ import './Home.css'
 function HomeComponent (){
         return (
          <div className="homepage">
-            <p>A software developer - passionate about technology 
+            <p className="homeParagraph">A software developer - passionate about technology 
                 <br></br>and sports and how it can impact our human experience.</p>
          </div>
         )

@@ -1,0 +1,17 @@
+.ULabout{
+list-style-type: none;
+}
+.unorderlist{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header2About{
+    text-align: center;
+    font-family: 'sofia-pro', sans-serif;
+    padding: 0.5em;
+}
+.header1About{
+
+    padding: 0.5em;
+} 

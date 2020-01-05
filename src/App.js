@@ -1,16 +1,25 @@
 import React from 'react';
 import './App.css';
-import NavbarComponent from './components/Navbar/Navbar';
-import Home from './components/Home/Home'
-import Footer from './components/Footer/Footer'
-import ImageComponent from './components/Image/Image'
+import NavbarComponent from '../src/components/Navbar/Navbar';
+import Footer from '../src/components/Footer/Footer'
+import {Route, Switch, Redirect} from 'react-router-dom'
+import Landing from './components/Landing/Landing';
+import Projects from './components/Projects/Projects'
+import About from './components/About/About'
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="RootApp">
       <NavbarComponent/>
-      <Home/>
-      <ImageComponent/>
+      <main>
+      <Switch>
+        <Route path ="/projects" component = {Projects}/>
+        <Route path ="/about" component = {About}/>
+       <Route exact path ='/'component ={Landing}/>
+       <Redirect to='/'/>
+       </Switch>
+      </main>
       <Footer/>
     </div>
   );
