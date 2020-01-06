@@ -5,6 +5,7 @@
 .a-footer{
     color:#BFBFBF;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .a-footer:hover{
@@ -20,7 +21,7 @@
 }
 
 
-h7{
+.h7Footer{
 letter-spacing: 0.0333333rem;
 color:#BFBFBF;
 text-decoration: underline;
