@@ -17,7 +17,6 @@ function App() {
         <Route path ="/projects" component = {Projects}/>
         <Route path ="/about" component = {About}/>
        <Route exact path ='/'component ={Landing}/>
-       <Redirect to='/'/>
        </Switch>
        </Router>
       <Footer/>
