@@ -9,8 +9,8 @@ import About from './components/About/About'
 function App() {
   return (
     <div className="App">
-       <NavbarComponent/>
       <Router>
+      <NavbarComponent/>
         <Switch>
        <Route exact path ='/about' component ={About}/>
        <Route  exact path ='/projects' component ={Projects}/>
