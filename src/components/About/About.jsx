@@ -14,7 +14,7 @@ function About() {
             <span><p className="aboutParagraph">I'm grateful to have had the opportunity to work in Engineering at PSEG, IBM and Exelon Corporation. Prior, I attended Drexel University at Philadelphia, PA where I completed my Master's degree in Electrical and Computer Engineering and my Bachelor's Degree at Morgan State University in Baltimore, MD where I also studied Electrical and Computer Engineering.
     </p></span>
             <span><p className="aboutParagraph">
-            I'm available for remote work - if you would like to build something together, <a href="mailto:adesegunadedeji@gmail.com">get in touch?</a>
+            I'm available for work - if you would like to build something together, <a className="intouch" href="mailto:adesegunadedeji@gmail.com">get in touch?</a>
              </p></span>
             <h2 className = "header2About">What I do</h2>
             <div  className="unorderlist">

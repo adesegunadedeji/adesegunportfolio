@@ -4,8 +4,10 @@ import classnames from 'classnames';
 import MeowWoofImage from './MeowWoof.jpg'
 import Afroleague from './Afroleague.jpg'
 import Vicinage from './Vicinage.jpg'
+import Chatbox from './Chatbox.jpg'
 import Xapa from './Xapa.jpg'
 
+import './Projects.css'
 const Projects = (props) => {
   const [activeTab, setActiveTab] = useState('1');
 
@@ -31,6 +33,7 @@ const Projects = (props) => {
           >
            NODE.JS
           </NavLink>
+      
         </NavItem>
         <NavItem>
           <NavLink
@@ -49,8 +52,8 @@ const Projects = (props) => {
                 <CardBody>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
-                    <CardText>FullStack App with multi-factor authentication that allows a user to add, modify and delete foster pet’s information from database. This was built using Express.js  and MongoDB.</CardText>
-                    <a className = "aTagLinksabout"href="https://meowwoof-deployed-app.herokuapp.com/">VISIT</a>
+                    <CardText>FullStack App with multi-factor authentication that allows a user to add, modify and delete foster pet’s information from database. This was built using Express.js  and MongoDB and Amazon S3.</CardText>
+                    <a className = "aTagLinksProjects"href="https://meowwoof-deployed-app.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col> 
@@ -61,7 +64,7 @@ const Projects = (props) => {
                     <CardTitle>AFRO LEAGUE</CardTitle>
                     <CardText> A Responsive Afrocentric fantasy league app with that gives users access to their favorite players and team’s statistics. This was built using technologies like React and Ruby on Rails.
                     </CardText>
-                    <a  className = "aTagLinksabout" href="https://afroleagueapp.herokuapp.com/">VISIT</a>
+                    <a  className = "aTagLinksProjects" href="http://powerful-stream-79124.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -71,7 +74,7 @@ const Projects = (props) => {
                     <CardImg src= {Vicinage} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
                     <CardText> Online real-estate application with multi-factor authentication  that allows property owners and renters manage their electronic records and digital assets using React and MongoDB.</CardText>
-                    <a  className = "aTagLinksabout" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
+                    <a  className = "aTagLinksProjects" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -82,7 +85,18 @@ const Projects = (props) => {
                     <CardTitle>Xapa</CardTitle>
                     <CardText> Business directory application that allows  small businesses promote their businesses to their target audience using their location as a parameter. 
 This was built using React-Redux and Ruby on Rails.</CardText>
-                    <a  className = "aTagLinksabout" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
+                    <a  className = "aTagLinksProjects" href="http://pure-harbor-21664.herokuapp.com/">VISIT</a>
+                    </CardBody>
+                    </Card>
+                    </Col>
+                    <Col sm ="3">
+                <Card>
+                <CardBody>
+                    <CardImg src= {Chatbox} className = "PortfolioImage" alt="Card image cap" />
+                    <CardTitle>CHATBOX</CardTitle>
+                    <CardText> Chat application that allows  users communicate with each other. This was built using React+Websocket.
+</CardText>
+                    <a  className = "aTagLinksProjects" href="http://fast-mesa-64631.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -97,7 +111,7 @@ This was built using React-Redux and Ruby on Rails.</CardText>
                     <CardImg src= {MeowWoofImage}  className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>MEOWWOOF RESCUE</CardTitle>
                     <CardText>FullStack App with multi-factor authentication that allows a user to add, modify and delete foster pet’s information from database. This was built using Express.js  and MongoDB.</CardText>
-                 <a  className = "aTagLinksabout" href ="https://meowwoof-deployed-app.herokuapp.com/">VISIT</a>
+                 <a  className = "aTagLinksProjects" href ="https://meowwoof-deployed-app.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col> 
@@ -107,7 +121,18 @@ This was built using React-Redux and Ruby on Rails.</CardText>
                     <CardImg src= {Vicinage} className = "PortfolioImage" alt="Card image cap" />
                     <CardTitle>VICINAGE</CardTitle>
                     <CardText> Online real-estate application with multi-factor authentication  that allows property owners and renters manage their electronic records and digital assets using React and MongoDB.</CardText>
-                    <a className = "aTagLinksabout" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
+                    <a className = "aTagLinksProjects" href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
+                    </CardBody>
+                    </Card>
+                    </Col>
+                    <Col sm ="3">
+                <Card>
+                <CardBody>
+                    <CardImg src= {Chatbox} className = "PortfolioImage" alt="Card image cap" />
+                    <CardTitle>CHATBOX</CardTitle>
+                    <CardText> Chat application that allows  users communicate with each other. This was built using React+Websocket.
+</CardText>
+                    <a  className = "aTagLinksProjects" href="http://fast-mesa-64631.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -122,7 +147,7 @@ This was built using React-Redux and Ruby on Rails.</CardText>
                     <CardTitle>AFRO LEAGUE</CardTitle>
                     <CardText> A Responsive Afrocentric fantasy league app with that gives users access to their favorite players and team’s statistics. This was built using technologies like React and Ruby on Rails.
                     </CardText>
-                    <a  className = "aTagLinksabout" href= "https://afroleagueapp.herokuapp.com/">VISIT</a>
+                    <a  className = "aTagLinksProjects" href= "https://afroleagueapp.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
@@ -134,13 +159,15 @@ This was built using React-Redux and Ruby on Rails.</CardText>
                     <CardTitle>XAPA</CardTitle>
                     <CardText> Business directory application that allows  small businesses promote their businesses to their target audience using their location as a parameter. 
 This was built using React-Redux and Ruby on Rails.</CardText>
-                    <a  className = "aTagLinksabout"  href="https://peaceful-hamlet-56854.herokuapp.com/">VISIT</a>
+                    <a  className = "aTagLinksProjects"  href="http://pure-harbor-21664.herokuapp.com/">VISIT</a>
                     </CardBody>
                     </Card>
                     </Col>
           </Row>
         </TabPane>
       </TabContent>
+      <div className="projectSpace">
+      </div>
     </div>
   );
 }

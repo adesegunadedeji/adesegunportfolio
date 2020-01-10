@@ -1,8 +1,8 @@
 .ImageComponent {
     align-content: center;
     width: 100%;
-    max-width:1000px;
-  padding: 2px;
+    max-width:800px;
+    padding: 2px;
     height: auto;
     border: 10px solid black;
     }

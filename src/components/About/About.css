@@ -30,3 +30,13 @@ list-style-type: none;
     text-decoration-color: black;
     font-family: 'Stoke', serif;
 }
+
+a.intouch{
+    color: black;
+    font-family: 'Stoke', serif;
+}
+
+a.intouch:hover{
+    color: #f64c72;
+    font-family: 'Stoke', serif;
+}
