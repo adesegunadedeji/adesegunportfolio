@@ -10,16 +10,16 @@ import About from './components/About/About'
 
 function App() {
   return (
-    <div className="RootApp">
+    <div className="App">
+      <Router>
       <NavbarComponent/>
-<Router>
       <Switch>
         <Route exact path ="/projects" component = {Projects}/>
         <Route exact path ="/about" component = {About}/>
        <Route exact path ='/'component ={Landing}/>
        </Switch>
-       </Router>
       <Footer/>
+      </Router>
     </div>
   );
 }
