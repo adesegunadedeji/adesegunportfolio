@@ -8,17 +8,19 @@ import Projects from './components/Projects/Projects'
 import About from './components/About/About'
 function App() {
   return (
+    <Router>
     <div className="App">
-      <Router>
+     
       <NavbarComponent/>
         <Switch>
        <Route  path ='/about' component ={About}/>
        <Route  path ='/projects' component ={Projects}/>
        <Route  exact path ='/' component ={Landing}/> 
        </Switch>
-       </Router>
+     
       <Footer/>
     </div>
+    </Router>
   );
 }
 
