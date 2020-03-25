@@ -5,7 +5,7 @@ function About() {
     return (
         <div className="aboutPage">
             <h1 className = "header1About"> Hi, I'm Ade...</h1>
-            <span><p className="aboutParagraph">I believe in creating product that can change the literally change the world and increase our global awareness. My skills are broad: from front end to back end development.I enjoy building sites  and mobile applications from start to finish.</p></span>
+            <span><p className="aboutParagraph">I believe in creating products that can change the world and increase our global awareness. My skills are broad: from front end to back end development.I enjoy building sites  and mobile applications from start to finish.</p></span>
 
             <span><p className="aboutParagraph">I currently spend my days as a design Engineer at PSEG. In my evenings, I'm finding ways to turn thoughtful ideas into responsive websites that allow the user experience the application in the best possible way. On weekends, I cook and enjoy watching the English Premier League.</p></span>
             <span><p className="aboutParagraph">
